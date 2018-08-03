@@ -4,13 +4,9 @@ threadsafe: true
 
 handlers:
 - url: /
-  static_files: myfirstweb-212206
-/index.html
-  upload: myfirstweb-212206
-/index.html
+  static_files: myfirstweb-212206/index.html
+  upload: myfirstweb-212206/index.html
 
 - url: /(.*)
-  static_files: myfirstweb-212206
-/\1
-  upload: myfirstweb-212206
-/(.*)
+  static_files: myfirstweb-212206/\1
+  upload: myfirstweb-212206/(.*)
